@@ -23,8 +23,8 @@ EXECUTABLES :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+trees \
 . \
-avl \
 Util \
 Binary \
 

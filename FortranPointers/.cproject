@@ -20,7 +20,7 @@
 					<folderInfo id="photran.managedbuild.config.gnu.fortran.exe.debug.2084206142." name="/" resourcePath="">
 						<toolChain id="photran.managedbuild.toolchain.gnu.fortran.exe.debug.1711677454" name="GCC Fortran" superClass="photran.managedbuild.toolchain.gnu.fortran.exe.debug">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="photran.managedbuild.target.gnu.platform.exe.debug.812591811" name="Debug Platform" osList="solaris,linux,hpux,aix,qnx" superClass="photran.managedbuild.target.gnu.platform.exe.debug"/>
-							<builder buildPath="${workspace_loc:/FortranPointers/Debug}" id="photran.managedbuild.target.gnu.builder.exe.debug.852688219" managedBuildOn="true" name="Gnu Make Builder.Debug" superClass="photran.managedbuild.target.gnu.builder.exe.debug"/>
+							<builder buildPath="${workspace_loc:/FortranPointers/Debug}" id="photran.managedbuild.target.gnu.builder.exe.debug.852688219" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="photran.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="photran.managedbuild.tool.gnu.c.compiler.exe.debug.1791689623" name="GCC C Compiler" superClass="photran.managedbuild.tool.gnu.c.compiler.exe.debug">
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1242956854" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -61,7 +61,7 @@
 					<folderInfo id="photran.managedbuild.config.gnu.fortran.exe.release.1707191948." name="/" resourcePath="">
 						<toolChain id="photran.managedbuild.toolchain.gnu.fortran.exe.release.1539997590" name="GCC Fortran" superClass="photran.managedbuild.toolchain.gnu.fortran.exe.release">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="photran.managedbuild.target.gnu.platform.fortran.exe.release.1708558315" name="Release Platform" osList="solaris,linux,hpux,aix,qnx" superClass="photran.managedbuild.target.gnu.platform.fortran.exe.release"/>
-							<builder buildPath="${workspace_loc:/FortranPointers/Release}" id="photran.managedbuild.target.gnu.builder.exe.release.1844465394" managedBuildOn="true" name="Gnu Make Builder.Release" superClass="photran.managedbuild.target.gnu.builder.exe.release"/>
+							<builder buildPath="${workspace_loc:/FortranPointers/Release}" id="photran.managedbuild.target.gnu.builder.exe.release.1844465394" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="photran.managedbuild.target.gnu.builder.exe.release"/>
 							<tool id="photran.managedbuild.tool.gnu.c.compiler.exe.release.1414206425" name="GCC C Compiler" superClass="photran.managedbuild.tool.gnu.c.compiler.exe.release">
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.536623001" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
