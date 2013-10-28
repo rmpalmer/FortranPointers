@@ -1,7 +1,10 @@
 program main
     use binary_struct, only: binary_tree => tree, binary_lookup => lookup, &
                              binary_smallest => smallest, binary_print => print_tree
-    use avl_struct, only: avl_tree => tree, avl_lookup => lookup, &
+!    use avl_struct, only: avl_tree => tree, avl_lookup => lookup, &
+!                            avl_height => max_height, &
+!                            avl_smallest => smallest, avl_print => print_tree
+    use avl, only: avl_tree => tree, avl_lookup => lookup, &
                             avl_height => max_height, &
                             avl_smallest => smallest, avl_print => print_tree
     use timer_class
@@ -45,7 +48,7 @@ program main
         call random_number(r)
         write (*,'(''adding '',i6,'' '',f10.9)') i, r
         !added_b = added_b + binary_lookup(t, r)
-        added_a = added_a + avl_lookup(at, r)
+        call avl_lookup(at, r)
         write (*,'(''max h is '',i6)') avl_height(at)
         call avl_print(at)
     end do

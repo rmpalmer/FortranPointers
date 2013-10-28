@@ -18,6 +18,6 @@ OBJS += \
 	@echo 'Finished building: $<'
 	@echo ' '
 
-main.o: ../main.f90 Binary/binary_struct.o Util/timer_class.o trees/avl_struct.o
+main.o: ../main.f90 Binary/binary_struct.o Util/timer_class.o trees/avl.o
 
 
